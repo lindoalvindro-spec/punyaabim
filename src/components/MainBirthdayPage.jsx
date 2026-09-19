@@ -17,7 +17,7 @@ function LetterTypewriter() {
   const [displayedLines, setDisplayedLines] = useState([]);
 
   const letterLines = [
-    { text: "Happy Birthday, Desy ❤️", style: "greeting" },
+    { text: "Happy Birthday, Abim ❤️", style: "greeting" },
     { text: "", style: "spacer" },
     { text: "On this special day, I want to wish you good health, genuine happiness, peace of mind, and the fulfilment of every dream and ambition you pursue.", style: "body" },
     { text: "", style: "spacer" },
@@ -313,7 +313,7 @@ function FarewellSection({ onOpenCake }) {
           fontWeight: '400',
         }}
       >
-        Happy Birthday, Desy Eirlea Driselle ❤️<br /><br />
+        Happy Birthday, Abim ❤️<br /><br />
         May your year ahead be filled with genuine happiness, good health, and success in everything you do. I’m truly grateful to be able to celebrate you today, even though we’re miles apart. Distance may keep us from celebrating side by side, but it could never make this day feel any less special to me
       </p>
 
@@ -550,12 +550,12 @@ export default function MainBirthdayPage() {
     }
   };
 
-  // 3. Polaroid Lightbox Modal State - Photos for Desy Eirlea Driselle
+  // 3. Polaroid Lightbox Modal State - Photos for Abim
   const [selectedPhoto, setSelectedPhoto] = useState(null);
   const photoGallery = [
     { 
       id: 1, 
-      title: 'Desy Eirlea Driselle ✨', 
+      title: 'Abim ✨', 
       date: 'Special Celebration', 
       location: 'Cherished Moment',
       img: '/luc 1.jpeg',
@@ -918,7 +918,7 @@ export default function MainBirthdayPage() {
           <span>🤍</span>
         </div>
 
-        {/* Title: Happy Birthday, My Dearest 🤍 Desy Eirlea Driselle */}
+        {/* Title: Happy Birthday, My Dearest 🤍 Abim */}
         <div
           style={{
             fontFamily: 'var(--font-display)',
@@ -966,7 +966,7 @@ export default function MainBirthdayPage() {
               textShadow: '0 0 20px rgba(255, 255, 255, 0.6)',
             }}
           >
-            Desy Eirlea Driselle
+            Abim
           </div>
         </div>
 
@@ -1614,7 +1614,7 @@ export default function MainBirthdayPage() {
                 zIndex: 5,
               }}
             >
-              📜 A SPECIAL NOTE FOR DESY EIRLEA DRISELLE 💙
+              📜 A SPECIAL NOTE FOR ABIM 💙
             </div>
 
             <p style={{ marginTop: '4px', fontFamily: 'var(--font-body)' }}>
@@ -1746,10 +1746,10 @@ export default function MainBirthdayPage() {
           >
             <div style={{ fontSize: '3rem', marginBottom: '10px' }}>💖</div>
             <h3 className="neon-text" style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', marginBottom: '8px' }}>
-              Happy Birthday, Desy!
+              Happy Birthday, Abim!
             </h3>
             <p style={{ fontSize: '0.9rem', color: '#e0f2fe', marginBottom: '20px' }}>
-              Wishing the wonderful Desy Eirlea Driselle a magical year ahead 💗
+              Wishing the wonderful Abim a magical year ahead 💗
             </p>
 
             <button

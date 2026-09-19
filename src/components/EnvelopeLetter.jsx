@@ -263,7 +263,7 @@ export default function EnvelopeLetter({ onGoToClosing }) {
             }}
           >
             <span>Special Birthday Note</span>
-            <span>🤍 Desy Eirlea Driselle</span>
+            <span>🤍 Abim</span>
           </div>
 
           {/* Letter Greeting */}
@@ -301,7 +301,7 @@ export default function EnvelopeLetter({ onGoToClosing }) {
             </p>
 
             <p style={{ marginBottom: '4px', fontStyle: 'italic', color: '#a51d38' }}>
-              Happy birthday, my dearest Desy. You deserve all the love and beauty this world has to offer.
+              Happy birthday, my dearest Abim. You deserve all the love and beauty this world has to offer.
             </p>
           </div>
 

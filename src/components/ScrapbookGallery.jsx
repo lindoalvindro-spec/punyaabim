@@ -17,7 +17,7 @@ export default function ScrapbookGallery({ onGoToEnvelope, isPlaying, onToggleMu
       src: '/luc 1.jpeg',
       caption: 'Momen terindah bersamamu di alam terbuka ⛰️🤍',
       note: 'Hari penuh senyum & udara sejuk!',
-      date: 'Special Date with Desy',
+      date: 'Special Date with Abim',
       location: 'Together in Nature',
       rotation: '-3.2deg',
       tapeColor: 'repeating-linear-gradient(45deg, rgba(255, 182, 193, 0.8), rgba(255, 182, 193, 0.8) 8px, rgba(255, 220, 230, 0.8) 8px, rgba(255, 220, 230, 0.8) 16px)',
@@ -181,7 +181,7 @@ export default function ScrapbookGallery({ onGoToEnvelope, isPlaying, onToggleMu
           }}
         >
           <Sparkles size={13} color="#ff758f" />
-          <span>DESY'S MEMORY SCRAPBOOK</span>
+          <span>ABIM'S MEMORY SCRAPBOOK</span>
           <Sparkles size={13} color="#ff758f" />
         </div>
 
@@ -615,7 +615,7 @@ export default function ScrapbookGallery({ onGoToEnvelope, isPlaying, onToggleMu
             </div>
             <div>
               <p style={{ fontSize: '0.9rem', fontWeight: '700', margin: 0 }}>
-                Soundtrack Khusus Desy
+                Soundtrack Khusus Abim
               </p>
               <p style={{ fontSize: '0.74rem', color: '#e9d5ff', margin: '2px 0 0 0' }}>
                 Diputar dengan penuh cinta 🤍

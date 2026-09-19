@@ -61,7 +61,7 @@ export default function ScrapbookMuseum({ isPlaying, onToggleMusic, onRestart, a
       src: '/luc 1.jpeg',
       caption: 'Momen terindah bersamamu di alam terbuka ⛰️🤍',
       note: 'Hari penuh senyum & udara sejuk!',
-      date: 'Special Date with Desy',
+      date: 'Special Date with Abim',
       location: 'Together in Nature',
       rotation: '-3.2deg',
       tapeColor: 'repeating-linear-gradient(45deg, rgba(255, 182, 193, 0.85), rgba(255, 182, 193, 0.85) 6px, rgba(255, 220, 230, 0.85) 6px, rgba(255, 220, 230, 0.85) 12px)',
@@ -371,7 +371,7 @@ export default function ScrapbookMuseum({ isPlaying, onToggleMusic, onRestart, a
               lineHeight: '1.2',
             }}
           >
-            Untuk DESY EIRLEA DRISELLE
+            Untuk ABIM
           </h1>
 
           <p
@@ -931,7 +931,7 @@ export default function ScrapbookMuseum({ isPlaying, onToggleMusic, onRestart, a
               </div>
               <div style={{ textAlign: 'left' }}>
                 <p style={{ fontSize: '0.9rem', fontWeight: '700', margin: 0 }}>
-                  Soundtrack Khusus Desy
+                  Soundtrack Khusus Abim
                 </p>
                 <p style={{ fontSize: '0.74rem', color: '#e9d5ff', margin: '2px 0 0 0' }}>
                   Diputar spesial untukmu 🤍
@@ -1029,7 +1029,7 @@ export default function ScrapbookMuseum({ isPlaying, onToggleMusic, onRestart, a
             >
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '0.78rem', color: '#806b74', marginBottom: '14px', borderBottom: '1px dashed #ffccd5', paddingBottom: '8px' }}>
                 <span>Surat Cinta Untukmu</span>
-                <span>🤍 Desy Eirlea Driselle</span>
+                <span>🤍 Abim</span>
               </div>
 
               <h4 style={{ fontFamily: 'var(--font-display)', fontSize: '1.3rem', color: '#c9184a', marginBottom: '12px' }}>
@@ -1044,7 +1044,7 @@ export default function ScrapbookMuseum({ isPlaying, onToggleMusic, onRestart, a
                   Doa dan rasa sayangku selalu menyertaimu di setiap helaan nafas. Semoga tahun ini membawa limpahan kesehatan, kebahagiaan sejati, dan semua impianmu terwujud.
                 </p>
                 <p style={{ fontStyle: 'italic', color: '#a51d38', margin: 0 }}>
-                  Happy birthday, my dearest Desy. You deserve everything beautiful in this world.
+                  Happy birthday, my dearest Abim. You deserve everything beautiful in this world.
                 </p>
               </div>
 
@@ -1123,7 +1123,7 @@ export default function ScrapbookMuseum({ isPlaying, onToggleMusic, onRestart, a
             </p>
 
             <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.35rem', color: '#33222a', marginBottom: '6px', fontStyle: 'italic' }}>
-              Thank You for Staying untuk Desy...
+              Thank You for Staying untuk Abim...
             </h3>
 
             <p style={{ fontSize: '0.82rem', color: '#806b74', marginBottom: '16px' }}>
@@ -1309,7 +1309,7 @@ export default function ScrapbookMuseum({ isPlaying, onToggleMusic, onRestart, a
             </div>
 
             <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.45rem', color: '#33222a', marginBottom: '6px' }}>
-              Happy Birthday, Desy Eirlea Driselle! 🎂✨
+              Happy Birthday, Abim! 🎂✨
             </h3>
 
             <p style={{ fontSize: '0.88rem', color: '#806b74', marginBottom: '20px', lineHeight: '1.5' }}>

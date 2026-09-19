@@ -56,67 +56,57 @@ const rawLetterSections = [
   {
     id: 'intro',
     type: 'p',
-    text: "Kalau kamu sudah sampai di halaman ini, berarti kamu sudah melihat sedikit demi sedikit kenangan yang kita punya. Mungkin semuanya terlihat sederhana. Hanya beberapa foto, beberapa halaman, dan lagu yang menemani. Tapi di balik semuanya, ada banyak waktu, pikiran, dan perasaan yang ingin aku sampaikan.",
+    text: "Kalau kamu sudah sampai di halaman ini, berarti kamu sudah melihat lembaran memori yang tersimpan di sini. Di hari ulang tahunmu yang ke-19 ini, ada beberapa hal tulus yang ingin aku sampaikan langsung kepadamu.",
   },
   {
     id: 'h1',
     type: 'accent_h',
-    text: "Aku ingin mengucapkan terima kasih.",
+    text: "Terima kasih sudah ada untukku.",
   },
   {
     id: 'p1',
     type: 'p',
-    text: "Terima kasih karena sudah hadir dalam hidupku. Terima kasih karena sudah menjadi tempatku bercerita, tertawa, mengeluh, bahkan diam tanpa harus menjelaskan apa pun. Kehadiranmu membuat hari-hariku terasa berbeda. Banyak hal yang dulunya terasa biasa saja, sekarang menjadi sesuatu yang selalu ingin kuingat karena ada kamu di dalamnya.",
-  },
-  {
-    id: 'p2',
-    type: 'p',
-    text: "Aku sering memperhatikan hal-hal kecil tentangmu. Cara kamu tersenyum ketika sedang benar-benar bahagia. Pose andalanmu ketika berfoto. Tatapanmu yang mungkin terlihat jutek bagi orang lain, tapi justru selalu terlihat menggemaskan di mataku. Cara kamu memakai kebaya yang membuatku selalu terpana. Semua itu mungkin terlihat sederhana, tapi entah kenapa selalu berhasil membuatku semakin menyayangimu.",
+    text: "Makasih banyak ya udah hadir ke dunia ini, dan makasih banget udah jadi pasangan yang baik, sabar, serta selalu ada buat aku.",
   },
   {
     id: 'h2',
     type: 'accent_h',
-    text: "Aku juga ingin meminta maaf.",
+    text: "Maaf untuk segala kekuranganku.",
+  },
+  {
+    id: 'p2',
+    type: 'p',
+    text: "Di hari spesial kamu ini, aku juga mau minta maaf ya kalau selama kita pacaran aku sering bikin kesal, ngambek, atau belum bisa jadi yang terbaik buat kamu. Maaf kalau kadang aku masih banyak kurangnya.",
+  },
+  {
+    id: 'h3',
+    type: 'accent_h',
+    text: "Doa dan harapanku untukmu.",
   },
   {
     id: 'p3',
     type: 'p',
-    text: "Mungkin ada waktu ketika aku mengecewakanmu. Ada kata-kata yang kurang baik, sikap yang kurang peka, atau keputusan yang membuatmu sedih. Aku tidak bisa mengubah apa yang sudah terjadi, tetapi aku ingin terus belajar supaya bisa menjadi seseorang yang lebih baik untukmu. Bukan karena aku harus sempurna, tetapi karena kamu pantas mendapatkan seseorang yang selalu berusaha.",
-  },
-  {
-    id: 'p4',
-    type: 'p',
-    text: "Aku tidak tahu bagaimana masa depan akan berjalan. Akan ada hari-hari yang mudah, dan mungkin ada juga hari-hari yang sulit. Tapi satu hal yang ingin selalu kuusahakan adalah tetap memilihmu, setiap hari, dalam keadaan apa pun.",
-  },
-  {
-    id: 'p5',
-    type: 'p',
-    text: "Hadiah kecil ini mungkin tidak sempurna. Tampilannya mungkin belum seindah yang kamu bayangkan saat pertama kali melihatnya. Tapi sama seperti hubungan kita, semuanya dibuat sedikit demi sedikit, diperbaiki pelan-pelan, dan dijaga dengan sepenuh hati.",
-  },
-  {
-    id: 'p6',
-    type: 'p',
-    text: "Semoga setiap foto di sini bisa mengingatkanmu bahwa ada seseorang yang selalu mengagumimu, bahkan di saat kamu merasa biasa-biasa saja.",
+    text: "Semoga ke depannya hari-hari kamu selalu lancar, rezekinya dipermudah dan terus mengalir, serta selalu dikuatkan dalam menjalani kerasnya hidup dan hal-hal hebat yang sedang kamu kejar. Kamu hebat banget sejauh ini, jadi terus semangat ya!",
   },
   {
     id: 'b1',
     type: 'bullet',
-    text: "✦ Terima kasih sudah menjadi dirimu sendiri.",
+    text: "✦ Selamat bertambah usia yang ke-19, Abim.",
   },
   {
     id: 'b2',
     type: 'bullet',
-    text: "✦ Terima kasih sudah bertahan sejauh ini bersamaku.",
+    text: "✦ Terima kasih sudah berjuang keras dan selalu bertanggung jawab.",
   },
   {
     id: 'b3',
     type: 'bullet',
-    text: "✦ Dan terima kasih karena masih memberiku kesempatan untuk terus berjalan di sampingmu.",
+    text: "✦ Semoga setiap langkah dan mimpimu selalu dalam lindungan-Nya.",
   },
   {
     id: 's_love',
     type: 'signoff_love',
-    text: "Aku sayang kamu.",
+    text: "Aku selalu bangga punya kamu.",
   },
   {
     id: 's_today',
@@ -131,7 +121,7 @@ const rawLetterSections = [
   {
     id: 's_forever',
     type: 'signoff_sub',
-    text: "Dan selamanya.",
+    text: "Dan seterusnya.",
   },
   {
     id: 's_heart',
@@ -199,68 +189,49 @@ export default function ScrapbookBook({
     { id: 0, label: 'Sampul', icon: '🎀' },
     { id: 1, label: 'Kenalan', icon: '🌸' },
     { id: 2, label: 'Memori', icon: '🌸' },
-    { id: 3, label: '5 Potret', icon: '📸' },
+    { id: 3, label: '3 Potret', icon: '📸' },
     { id: 4, label: 'Lagu Kita', icon: '🎵' },
     { id: 5, label: 'Surat Cinta', icon: '💌' },
     { id: 6, label: 'Harapan', icon: '✨' },
   ];
 
-  // The 5 Special Photos with their exact quotes requested by user
-  const desyPhotos = [
+  // The 3 Special Photos of Abim
+  const abimPhotos = [
     {
       id: 1,
-      image: '/luc 1.jpeg',
-      tabLabel: '1. Senja',
-      title: 'Pesona Pertama',
-      caption: 'Kamu selalu cantik dalam keadaan apa pun, tapi entah kenapa, di foto ini aku benar-benar terpukau',
-      date: 'Senja di Tepi Pantai',
-      stamp: 'TERPUKAU 🌸',
+      image: '/abim 1.png',
+      tabLabel: '1. Sosok Penenang',
+      title: 'Sosok Penenang',
+      caption: 'Setiap ketulusan dan caramu bersikap selalu berhasil membuat duniaku terasa jauh lebih tenang.',
+      date: 'Momen Berharga',
+      stamp: 'TERBAIK 🤍',
       pinColor: '#ff758f',
       accentColor: '#ffe4ea',
+      rotation: -1.5,
     },
     {
       id: 2,
-      image: '/luc 2.jpeg',
-      tabLabel: '2. Pose Andalan',
-      title: 'Pose Andalan',
-      caption: 'Pose andalan kamu... dan entah kenapa, aku nggak pernah bosan melihatnya.',
-      date: 'Suasana Hangat Kafe',
-      stamp: 'FAVORITE ♡',
+      image: '/abim 2.png',
+      tabLabel: '2. Senyum Hangat',
+      title: 'Senyum yang Menghangatkan',
+      caption: 'Senyuman sederhana yang selalu punya arti besar untuk mengubah hari lelah jadi penuh ketenangan.',
+      date: 'Kenangan Hangat',
+      stamp: 'FAVORIT ✦',
       pinColor: '#ffd700',
       accentColor: '#fef3c7',
+      rotation: 1.8,
     },
     {
       id: 3,
-      image: '/luc 3.jpeg',
-      tabLabel: '3. Menggemaskan',
-      title: 'Hangat & Menggemaskan',
-      caption: 'Mungkin bagi orang lain kamu terlihat sedikit judes. Tapi yang aku lihat justru seseorang yang sangat menggemaskan. Tatapanmu mungkin terlihat tenang, tapi bagiku selalu terasa hangat',
-      date: 'Hammock di Bawah Teduh',
-      stamp: 'SO SWEET ✨',
+      image: '/abim 3.png',
+      tabLabel: '3. Pria Tangguh',
+      title: 'Pria Hebat & Tangguh',
+      caption: 'Kamu hebat banget sejauh ini. Jangan pernah ragu melangkah untuk mengejar semua impian besarmu.',
+      date: 'Usia ke-19',
+      stamp: 'PROUD OF YOU 👑',
       pinColor: '#10b981',
       accentColor: '#dcfce7',
-    },
-    {
-      id: 4,
-      image: '/luc 4.jpeg',
-      tabLabel: '4. Idulfitri',
-      title: 'Hari Kemenangan',
-      caption: 'Hari itu adalah Idulfitri, tapi yang paling aku ingat justru kamu. Tetap dengan pose andalanmu, tetap berhasil membuatku tersenyum setiap kali melihatnya',
-      date: 'Momen Idulfitri',
-      stamp: 'IDULFITRI 🤍',
-      pinColor: '#0ea5e9',
-      accentColor: '#e0f2fe',
-    },
-    {
-      id: 5,
-      image: '/luc 5.jpeg',
-      tabLabel: '5. Gaun Anggun',
-      title: 'Bidadari yang Bersinar',
-      caption: 'Melihatmu mengenakan gaun ini benar-benar membuatku terpana. Bukan hanya karena penampilannya, tetapi karena setiap senyummu selalu berhasil membuat semuanya terasa lebih indah',
-      date: 'Malam Istimewa',
-      stamp: 'ANGGUN 👑',
-      pinColor: '#f59e0b',
-      accentColor: '#fef3c7',
+      rotation: -1,
     },
   ];
 
@@ -401,7 +372,7 @@ export default function ScrapbookBook({
     const timer = setInterval(() => {
       setAutoProgress((prev) => {
         if (prev + step >= 100) {
-          setActivePhotoIdx((curr) => (curr + 1) % desyPhotos.length);
+          setActivePhotoIdx((curr) => (curr + 1) % abimPhotos.length);
           return 0;
         }
         return prev + step;
@@ -409,7 +380,7 @@ export default function ScrapbookBook({
     }, intervalMs);
 
     return () => clearInterval(timer);
-  }, [currentPage, isAutoPlay, selectedPhoto, desyPhotos.length]);
+  }, [currentPage, isAutoPlay, selectedPhoto, abimPhotos.length]);
 
   // Center active tab pill into view smoothly
   useEffect(() => {
@@ -833,7 +804,7 @@ export default function ScrapbookBook({
                     marginBottom: '6px',
                   }}
                 >
-                  SPECIAL MEMORY SCRAPBOOK
+                  19TH BIRTHDAY SPECIAL SCRAPBOOK
                 </p>
 
                 <h1
@@ -847,7 +818,7 @@ export default function ScrapbookBook({
                     marginBottom: '6px',
                   }}
                 >
-                  Desy's Memory Book
+                  Abim's Memory Book
                 </h1>
 
                 <div
@@ -868,7 +839,7 @@ export default function ScrapbookBook({
                     marginBottom: '4px',
                   }}
                 >
-                  Untuk Desy Eirlea Driselle 🤍
+                  Untuk Abim — 19 Tahun 🤍
                 </p>
 
                 <p
@@ -879,7 +850,7 @@ export default function ScrapbookBook({
                     fontStyle: 'italic',
                   }}
                 >
-                  Dibuat dengan seluruh ketulusan & cinta 🤍
+                  Dibuat dengan seluruh ketulusan & doa terbaik 🤍
                 </p>
               </div>
 
@@ -938,10 +909,10 @@ export default function ScrapbookBook({
                 </p>
               </div>
 
-              {/* Centerpiece Polaroid: Foto 1 (Sunset Pantai) */}
+              {/* Centerpiece Polaroid: Foto 1 (Abim 1) */}
               <div
                 className="polaroid-card"
-                onClick={() => handleOpenZoom(desyPhotos[0])}
+                onClick={() => handleOpenZoom(abimPhotos[0])}
                 style={{
                   width: '215px',
                   padding: '8px 8px 14px',
@@ -968,8 +939,8 @@ export default function ScrapbookBook({
 
                 <div style={{ position: 'relative' }}>
                   <img
-                    src="/luc 1.jpeg"
-                    alt="Desy 1"
+                    src="/abim 1.png"
+                    alt="Abim 1"
                     style={{ width: '100%', height: '175px', objectFit: 'cover', borderRadius: '4px' }}
                   />
                   <div
@@ -1001,7 +972,7 @@ export default function ScrapbookBook({
                     lineHeight: '1.3',
                   }}
                 >
-                  "Kamu selalu cantik dalam keadaan apa pun, tapi entah kenapa, di foto ini aku benar-benar terpukau" 🌸
+                  "Setiap ketulusan dan caramu bersikap selalu berhasil membuat duniaku terasa jauh lebih tenang." 🤍
                 </p>
               </div>
 
@@ -1040,7 +1011,7 @@ export default function ScrapbookBook({
                     margin: 0,
                   }}
                 >
-                  "Dari awal kita saling sapa, ada ketenangan yang gak pernah aku rasakan sebelumnya. Setiap cerita kecil bersamamu adalah lembaran baru yang ingin terus kubaca selamanya."
+                  "Dari awal kita melangkah bersama, ada rasa tenang dan nyaman yang selalu kurasakan. Terima kasih sudah menjadi tempat pulang yang selalu sabar mendengarkan ceritaku."
                 </p>
               </div>
 
@@ -1132,14 +1103,14 @@ export default function ScrapbookBook({
                     paddingTop: '2px',
                   }}
                 >
-                  Banyak hal yang dulunya terasa biasa saja, sekarang menjadi sesuatu yang selalu ingin kuingat karena ada kamu di dalamnya. Cara kamu tersenyum ketika sedang benar-benar bahagia selalu berhasil menghangatkan hariku 🤍
+                  Banyak hal yang dulunya terasa biasa saja, sekarang menjadi sesuatu yang selalu kusyukuri karena ada kamu yang menemani perjalananku. Senyum dan caramu memperlakukanku dengan sabar selalu jadi hal yang paling kusyukuri 🤍
                 </p>
               </div>
 
-              {/* Centerpiece Polaroid: Foto 2 (Pose Andalan Kafe) */}
+              {/* Centerpiece Polaroid: Foto 2 (Abim 2) */}
               <div
                 className="polaroid-card"
-                onClick={() => handleOpenZoom(desyPhotos[1])}
+                onClick={() => handleOpenZoom(abimPhotos[1])}
                 style={{
                   width: '205px',
                   padding: '8px 8px 14px',
@@ -1149,8 +1120,8 @@ export default function ScrapbookBook({
               >
                 <div style={{ position: 'relative' }}>
                   <img
-                    src="/luc 2.jpeg"
-                    alt="Desy 2"
+                    src="/abim 2.png"
+                    alt="Abim 2"
                     style={{ width: '100%', height: '165px', objectFit: 'cover', borderRadius: '4px' }}
                   />
                   <div
@@ -1182,7 +1153,7 @@ export default function ScrapbookBook({
                     lineHeight: '1.3',
                   }}
                 >
-                  "Pose andalan kamu... dan entah kenapa, aku nggak pernah bosan melihatnya." ♡
+                  "Senyuman sederhana yang selalu punya arti besar untuk mengubah hari lelah jadi penuh ketenangan." ♡
                 </p>
               </div>
 
@@ -1202,14 +1173,14 @@ export default function ScrapbookBook({
                   background: 'rgba(255, 117, 143, 0.1)',
                 }}
               >
-                <span>Buka 5 Potret Kenangan</span>
+                <span>Buka 3 Potret Kenangan</span>
                 <ChevronRight size={15} />
               </div>
             </div>
           )}
 
           {/* ======================================================= */}
-          {/* PAGE 3: PAMERAN 03 — 5 POTRET KENANGAN DESY EIRLEA DRISELLE (INTERACTIVE SHOWCASE) */}
+          {/* PAGE 3: PAMERAN 03 — 3 POTRET KENANGAN ABIM (INTERACTIVE SHOWCASE) */}
           {/* ======================================================= */}
           {currentPage === 3 && (
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -1232,14 +1203,14 @@ export default function ScrapbookBook({
                   PAMERAN 03
                 </p>
                 <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.12rem', color: '#2e1c24', margin: '0 0 2px 0' }}>
-                  5 Potret Kenangan Desy Eirlea Driselle
+                  3 Potret Kenangan Abim
                 </h3>
                 <p style={{ fontSize: '0.68rem', color: '#8c6571', margin: 0, fontStyle: 'italic' }}>
                   Ketuk foto untuk memperbesar (zoom) 🔍
                 </p>
               </div>
 
-              {/* 5 Tabs / Pills Selector Row with Horizontal Scroll & Quick Arrows */}
+              {/* 3 Tabs / Pills Selector Row with Horizontal Scroll & Quick Arrows */}
               <div
                 style={{
                   width: '100%',
@@ -1291,7 +1262,7 @@ export default function ScrapbookBook({
                     flex: 1,
                   }}
                 >
-                  {desyPhotos.map((p, idx) => (
+                  {abimPhotos.map((p, idx) => (
                     <button
                       key={p.id}
                       onClick={() => handleSelectPhoto(idx)}
@@ -1415,7 +1386,7 @@ export default function ScrapbookBook({
 
               {/* Active Polaroid Card Display with Touch Swipe Support */}
               {(() => {
-                const currentPhoto = desyPhotos[activePhotoIdx];
+                const currentPhoto = abimPhotos[activePhotoIdx];
                 return (
                   <div
                     key={`polaroid-active-${currentPhoto.id}`}
@@ -1432,9 +1403,9 @@ export default function ScrapbookBook({
                       const deltaY = e.changedTouches[0].clientY - photoCardTouchStartYRef.current;
                       if (Math.abs(deltaX) > 35 && Math.abs(deltaX) > Math.abs(deltaY)) {
                         if (deltaX < 0) {
-                          handleSelectPhoto((activePhotoIdx + 1) % desyPhotos.length);
+                          handleSelectPhoto((activePhotoIdx + 1) % abimPhotos.length);
                         } else {
-                          handleSelectPhoto(activePhotoIdx > 0 ? activePhotoIdx - 1 : desyPhotos.length - 1);
+                          handleSelectPhoto(activePhotoIdx > 0 ? activePhotoIdx - 1 : abimPhotos.length - 1);
                         }
                       }
                     }}
@@ -1551,7 +1522,7 @@ export default function ScrapbookBook({
                     margin: 0,
                   }}
                 >
-                  "{desyPhotos[activePhotoIdx].caption}"
+                  "{abimPhotos[activePhotoIdx].caption}"
                 </p>
               </div>
 
@@ -1565,7 +1536,7 @@ export default function ScrapbookBook({
                 }}
               >
                 <button
-                  onClick={() => handleSelectPhoto(activePhotoIdx > 0 ? activePhotoIdx - 1 : desyPhotos.length - 1)}
+                  onClick={() => handleSelectPhoto(activePhotoIdx > 0 ? activePhotoIdx - 1 : abimPhotos.length - 1)}
                   style={{
                     background: '#ffffff',
                     border: '1px solid #ffd1dc',
@@ -1584,11 +1555,11 @@ export default function ScrapbookBook({
                 </button>
 
                 <span style={{ fontSize: '0.72rem', fontWeight: '700', color: '#ff4d6d' }}>
-                  {activePhotoIdx + 1} / 5
+                  {activePhotoIdx + 1} / {abimPhotos.length}
                 </span>
 
                 <button
-                  onClick={() => handleSelectPhoto((activePhotoIdx + 1) % desyPhotos.length)}
+                  onClick={() => handleSelectPhoto((activePhotoIdx + 1) % abimPhotos.length)}
                   style={{
                     background: '#ffffff',
                     border: '1px solid #ffd1dc',
@@ -1679,7 +1650,7 @@ export default function ScrapbookBook({
                     margin: 0,
                   }}
                 >
-                  Kamu juga sepertinya sudah tahu, kalau lagu ini selalu bisa membuatku teringat kamu, karena aku benar-benar menaruh kamu di lagu ini 🎵
+                  Lagu ini selalu mengingatkanku padamu. Setiap melodinya punya tempat tersendiri untuk mengiringi langkah kita berdua 🎵
                 </p>
               </div>
 
@@ -1746,10 +1717,10 @@ export default function ScrapbookBook({
                   {/* Track Details */}
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <p style={{ fontSize: '0.8rem', fontWeight: '700', margin: '0 0 2px 0', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
-                      Lagu Spesial Untukmu 🎵
+                      Lagu Spesial Hari Ulang Tahun Abim 🎵
                     </p>
                     <p style={{ fontSize: '0.68rem', color: 'rgba(255,255,255,0.7)', margin: '0 0 4px 0' }}>
-                      Our Favorite Song · Special for Desy 🤍
+                      Our Favorite Song · Special for Abim (19th Birthday) 🤍
                     </p>
 
                     <div style={{ display: 'flex', alignItems: 'flex-end', gap: '2px', height: '12px' }}>
@@ -1988,12 +1959,12 @@ export default function ScrapbookBook({
                       )}
                     </div>
 
-                    {/* Centered Keepsake Polaroid: Foto 5 (Gaun / Kebaya Anggun) with Washi Tape */}
+                    {/* Centered Keepsake Polaroid: Foto 3 (Abim 3) with Washi Tape */}
                     <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '14px' }}>
                       <div
-                        key="letter-polaroid-foto-5"
+                        key="letter-polaroid-foto-3"
                         className="polaroid-card"
-                        onClick={() => handleOpenZoom(desyPhotos[4])}
+                        onClick={() => handleOpenZoom(abimPhotos[2])}
                         style={{
                           width: '145px',
                           padding: '7px 7px 10px',
@@ -2019,12 +1990,12 @@ export default function ScrapbookBook({
                           }}
                         />
                         <img
-                          src="/luc 5.jpeg"
-                          alt="Desy Gaun Anggun"
+                          src="/abim 3.png"
+                          alt="Abim 3"
                           style={{ width: '100%', height: '145px', objectFit: 'cover', borderRadius: '4px', display: 'block' }}
                         />
                         <p style={{ fontFamily: 'var(--font-handwriting)', fontSize: '0.8rem', color: '#704250', textAlign: 'center', margin: '4px 0 0 0', lineHeight: 1.2 }}>
-                          anggunmu bidadari ♡ (zoom 🔍)
+                          kamu yang selalu kukagumi 🤍 (zoom 🔍)
                         </p>
                       </div>
                     </div>
@@ -2033,7 +2004,7 @@ export default function ScrapbookBook({
                     <div style={{ textAlign: 'left', marginBottom: '8px' }}>
                       <span style={{ fontSize: '1.1rem' }}>💌</span>
                       <h4 style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', color: '#c9184a', margin: '2px 0 0 0', fontWeight: '700' }}>
-                        Hai, sayang.
+                        Hai, Abim.
                       </h4>
                     </div>
 
@@ -2233,18 +2204,18 @@ export default function ScrapbookBook({
                   APRESIASI
                 </p>
                 <h4 style={{ fontFamily: 'var(--font-display)', fontSize: '1.05rem', color: '#2e1c24', margin: '0 0 4px 0', fontStyle: 'italic' }}>
-                  Thank You for Staying untuk Desy...
+                  Thank You for Staying, Abim...
                 </h4>
                 <p style={{ fontSize: '0.78rem', color: '#8c6571', margin: '0 0 8px 0' }}>
-                  Terima kasih karena tetap ada dan menemani perjalananku.
+                  Selamat ulang tahun yang ke-19 untuk pria hebatku.
                 </p>
 
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '5px', justifyContent: 'center' }}>
                   <span style={{ fontSize: '0.64rem', background: '#ffe4ea', color: '#c9184a', padding: '2px 7px', borderRadius: '10px', fontWeight: '600' }}>
-                    🌸 Pink rose · Gratitude
+                    🌸 Sincerity & Gratitude
                   </span>
                   <span style={{ fontSize: '0.64rem', background: '#e0f2fe', color: '#0369a1', padding: '2px 7px', borderRadius: '10px', fontWeight: '600' }}>
-                    🦋 Blue hydrangea · Devotion
+                    ✨ 19th Milestone
                   </span>
                 </div>
               </div>
@@ -2272,7 +2243,7 @@ export default function ScrapbookBook({
                 }}
               >
                 <Sparkles size={17} />
-                <span>Tiup Lilin & Sampaikan Harapan ✨ 🤍</span>
+                <span>Tiup Lilin ke-19 & Sampaikan Harapan ✨ 🎂</span>
               </button>
 
               {/* Restart Button */}
@@ -2579,7 +2550,7 @@ export default function ScrapbookBook({
               MAKE A WISH
             </span>
             <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.35rem', color: '#2e1c24', margin: '4px 0 12px 0' }}>
-              Harapan Untuk Desy ✨
+              Harapan Untuk Abim (19 Tahun) ✨
             </h3>
 
             {/* Cake Graphic */}
@@ -2652,7 +2623,7 @@ export default function ScrapbookBook({
             {!candleBlown ? (
               <>
                 <p style={{ fontFamily: 'var(--font-handwriting)', fontSize: '1.2rem', color: '#4a2c38', marginBottom: '14px' }}>
-                  Pikirkan satu harapan terindahmu sebelum meniup lilinnya ya sayang... 🤍
+                  Pikirkan satu doa dan harapan terbaikmu sebelum meniup lilinnya ya sayang... 🤍
                 </p>
                 <button
                   onClick={handleBlowCandle}
@@ -2682,7 +2653,7 @@ export default function ScrapbookBook({
                     margin: '4px 0 18px 0',
                   }}
                 >
-                  Semoga semua doa dan harapan manismu terkabul, selalu bahagia, sehat, dan terus tersenyum bersama orang-orang tersayang! 💕
+                  Semoga di usia 19 tahun ini, semua doa terbaikmu dijawab, rezekimu lancar mengalir, selalu dikuatkan mengejar impian hebatmu, dan terus bahagia bersamaku! 💕
                 </p>
                 <button
                   onClick={() => setShowCakeModal(false)}
@@ -2698,7 +2669,7 @@ export default function ScrapbookBook({
                     boxShadow: '0 4px 14px rgba(255, 77, 109, 0.35)',
                   }}
                 >
-                  Tutup & Simpan Kenangan 🌸
+                  Tutup & Simpan Kenangan ✨
                 </button>
               </div>
             )}

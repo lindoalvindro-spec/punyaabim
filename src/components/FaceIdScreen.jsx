@@ -46,7 +46,7 @@ export default function FaceIdScreen({ onComplete }) {
 
     // 4. Timeline for biometric verification progression
     const timer1 = setTimeout(() => {
-      setStatusText('Memverifikasi Identitas: Desy Eirlea Driselle...');
+      setStatusText('Memverifikasi Identitas: Abim...');
     }, 1200);
 
     const timer2 = setTimeout(() => {
@@ -204,7 +204,7 @@ export default function FaceIdScreen({ onComplete }) {
           }}
         />
 
-        {/* Center Target: Desy's Photo */}
+        {/* Center Target: Abim's Photo */}
         <div
           ref={photoRef}
           style={{
@@ -218,8 +218,8 @@ export default function FaceIdScreen({ onComplete }) {
           }}
         >
           <img
-            src="/luc 1.jpeg"
-            alt="Desy Eirlea Driselle Face ID"
+            src="/abim 1.png"
+            alt="Abim Face ID"
             style={{
               width: '100%',
               height: '100%',
@@ -314,7 +314,7 @@ export default function FaceIdScreen({ onComplete }) {
           }}
         >
           {scanState === 'verified'
-            ? 'Akses Diberikan untuk Desy Eirlea Driselle 🤍'
+            ? 'Akses Diberikan untuk Abim 🤍'
             : 'Posisikan wajah di dalam bingkai'}
         </p>
       </div>

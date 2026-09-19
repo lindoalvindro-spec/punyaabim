@@ -14,8 +14,8 @@ export default function PasscodeScreen({ onUnlock }) {
   const [pin, setPin] = useState('');
   const [errorMsg, setErrorMsg] = useState('');
   
-  const CORRECT_PIN = '111225';
-  const PIN_LENGTH = 6;
+  const CORRECT_PIN = '1909';
+  const PIN_LENGTH = 4;
 
   const bgParticles = Array.from({ length: 16 }).map((_, i) => ({
     id: i,
@@ -95,7 +95,7 @@ export default function PasscodeScreen({ onUnlock }) {
   };
 
   const verifyPin = (enteredPin) => {
-    if (enteredPin === CORRECT_PIN || enteredPin === '111225' || enteredPin === '1112' || enteredPin === '1234') {
+    if (enteredPin === CORRECT_PIN || enteredPin === '1909' || enteredPin === '1234') {
       const tl = gsap.timeline();
       
       tl.to(dotsRef.current, {
@@ -269,7 +269,7 @@ export default function PasscodeScreen({ onUnlock }) {
               letterSpacing: '0.3px',
             }}
           >
-            For You, Desy 🤍
+            For You, Abim 🤍
           </h2>
           <p
             style={{
@@ -293,32 +293,32 @@ export default function PasscodeScreen({ onUnlock }) {
               display: 'inline-block',
             }}
           >
-            Clue: 111225 ❤️
+            Clue: 1909 ❤️
           </p>
         </div>
 
-        {/* 6-PIN Dots Container */}
+        {/* 4-PIN Dots Container */}
         <div
           ref={dotsRef}
           style={{
             display: 'flex',
-            gap: '12px',
+            gap: '14px',
             marginBottom: '20px',
-            padding: '10px 18px',
+            padding: '10px 22px',
             background: '#fff5f7',
             borderRadius: '24px',
             border: '1px solid rgba(255, 182, 193, 0.5)',
             boxShadow: 'inset 0 2px 5px rgba(0,0,0,0.03)',
           }}
         >
-          {Array.from({ length: 6 }).map((_, idx) => {
+          {Array.from({ length: 4 }).map((_, idx) => {
             const isFilled = idx < pin.length;
             return (
               <div
                 key={idx}
                 style={{
-                  width: '14px',
-                  height: '14px',
+                  width: '15px',
+                  height: '15px',
                   borderRadius: '50%',
                   border: isFilled ? '1.5px solid #ff4d6d' : '1.5px solid #ffccd5',
                   background: isFilled

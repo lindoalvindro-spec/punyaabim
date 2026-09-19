@@ -164,7 +164,7 @@ export default function GinghamBirthdayCard() {
           Interactive Gift Card 🎁
         </h3>
         <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
-          Tap the card to open Desy's birthday surprise ✨
+          Tap the card to open Abim's birthday surprise ✨
         </p>
       </div>
 
@@ -224,7 +224,7 @@ export default function GinghamBirthdayCard() {
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
                 <Sparkles size={18} color="#b4001e" />
                 <span style={{ fontSize: '0.82rem', fontWeight: '700', letterSpacing: '1px', color: '#b4001e' }}>
-                  A SPECIAL MESSAGE FOR DESY EIRLEA DRISELLE
+                  A SPECIAL MESSAGE FOR ABIM
                 </span>
               </div>
 
@@ -331,8 +331,8 @@ export default function GinghamBirthdayCard() {
                 }}
               >
                 <img
-                  src="/luc 1.jpeg"
-                  alt="Desy Eirlea Driselle"
+                  src="/abim 1.png"
+                  alt="Abim"
                   style={{
                     width: '100%',
                     height: '100%',

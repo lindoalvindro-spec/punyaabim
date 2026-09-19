@@ -53,7 +53,7 @@ export default function App() {
         <source src="/WhatsApp%20Audio%202026-09-05%20at%2017.10.01.mpeg" type="audio/mpeg" />
       </audio>
 
-      {/* 1. Passcode Screen (PIN: 111225) */}
+      {/* 1. Passcode Screen (PIN: 1909) */}
       {currentStep === 'passcode' && (
         <PasscodeScreen onUnlock={() => setCurrentStep('face-id')} />
       )}

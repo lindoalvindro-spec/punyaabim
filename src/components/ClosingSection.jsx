@@ -164,7 +164,7 @@ export default function ClosingSection({ onRestart }) {
             fontStyle: 'italic',
           }}
         >
-          Thank You for Staying, Desy
+          Thank You for Staying, Abim
         </h3>
 
         <p style={{ fontSize: '0.82rem', color: '#806b74', marginBottom: '16px' }}>
@@ -324,7 +324,7 @@ export default function ClosingSection({ onRestart }) {
                 marginBottom: '6px',
               }}
             >
-              Happy Birthday, Desy Eirlea Driselle! 🎂✨
+              Happy Birthday, Abim! 🎂✨
             </h3>
 
             <p style={{ fontSize: '0.88rem', color: '#806b74', marginBottom: '20px', lineHeight: '1.5' }}>

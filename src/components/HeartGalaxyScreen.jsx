@@ -245,7 +245,7 @@ export default function HeartGalaxyScreen({ onContinue, onPlayMusic }) {
             lineHeight: '1.2',
           }}
         >
-          Untuk DESY EIRLEA DRISELLE
+          Untuk ABIM 🤍
         </h2>
 
         <p
@@ -257,7 +257,7 @@ export default function HeartGalaxyScreen({ onContinue, onPlayMusic }) {
             textShadow: '0 0 10px rgba(255, 133, 162, 0.6)',
           }}
         >
-          Spesial Untukmu Sayang 🤍
+          Selamat Ulang Tahun ke-19, Sayang 🤍
         </p>
       </div>
 
@@ -473,7 +473,7 @@ export default function HeartGalaxyScreen({ onContinue, onPlayMusic }) {
             whiteSpace: 'nowrap',
           }}
         >
-          ✦ Kamu pusat dari segalanya
+          ✦ Terima kasih sudah berjuang sejauh ini
         </div>
 
         {/* Quote 3: Bottom-Left */}
@@ -492,7 +492,7 @@ export default function HeartGalaxyScreen({ onContinue, onPlayMusic }) {
             whiteSpace: 'nowrap',
           }}
         >
-          ✦ Diantara jutaan, aku memilihmu
+          ✦ Di usia 19, semoga langkahmu kian dimudahkan
         </div>
 
         {/* Quote 4: Bottom-Right */}
@@ -511,7 +511,7 @@ export default function HeartGalaxyScreen({ onContinue, onPlayMusic }) {
             whiteSpace: 'nowrap',
           }}
         >
-          ✦ Kamu, seluruh semestaku
+          ✦ Selalu bangga punya kamu di hidupku
         </div>
 
         {/* CENTER 3D RADIANT GLOWING HEART */}
