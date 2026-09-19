@@ -1717,10 +1717,10 @@ export default function ScrapbookBook({
                   {/* Track Details */}
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <p style={{ fontSize: '0.8rem', fontWeight: '700', margin: '0 0 2px 0', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
-                      Lagu Spesial Hari Ulang Tahun Abim 🎵
+                      I Lay My Love on You 🎵
                     </p>
                     <p style={{ fontSize: '0.68rem', color: 'rgba(255,255,255,0.7)', margin: '0 0 4px 0' }}>
-                      Our Favorite Song · Special for Abim (19th Birthday) 🤍
+                      Westlife · Special for Abim (19th Birthday) 🤍
                     </p>
 
                     <div style={{ display: 'flex', alignItems: 'flex-end', gap: '2px', height: '12px' }}>

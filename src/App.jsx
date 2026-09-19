@@ -48,9 +48,11 @@ export default function App() {
         onPlay={() => setIsPlaying(true)}
         onPause={() => setIsPlaying(false)}
       >
+        <source src="/I Lay My Love on You.mp3" type="audio/mpeg" />
+        <source src="/I%20Lay%20My%20Love%20on%20You.mp3" type="audio/mpeg" />
+        <source src="/I Lay My Love on You (1).mp3" type="audio/mpeg" />
+        <source src="/I%20Lay%20My%20Love%20on%20You%20(1).mp3" type="audio/mpeg" />
         <source src="/special-song.mp3" type="audio/mpeg" />
-        <source src="/WhatsApp Audio 2026-09-05 at 17.10.01.mpeg" type="audio/mpeg" />
-        <source src="/WhatsApp%20Audio%202026-09-05%20at%2017.10.01.mpeg" type="audio/mpeg" />
       </audio>
 
       {/* 1. Passcode Screen (PIN: 1909) */}
